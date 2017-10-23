@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+}
+
+
+
+@media (min-width: 800px) {
+.caja, .navbar-fixed-bottom {
+	margin-right: 15%;
+	margin-left: 15%;
+ }
+}
+
+@media (max-width:790px){
+	.wrapper{
+		padding-bottom: 55%;
+	}
+}
+
+@media(min-width:1200px){
+	.wrapper{
+		padding-bottom: 25%;
+	}
+}
+
+.jumbotron{
+	margin-bottom: -5%;
+}
+.panel-footer{
+   background-color: #0391d3;
+   margin-bottom:0;
+}
+
+a img:hover{
+	opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+
+/****PÁGINA PERFIL****/
+
+.lista-perfil{
+	max-width: 40%;
+}
